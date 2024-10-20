@@ -7,6 +7,6 @@ COPY package.json ./
 RUN npm install
 
 COPY . .
-#for expose
+#for expose   DD
 EXPOSE 4000
 CMD [ "node", "index.js" ]
